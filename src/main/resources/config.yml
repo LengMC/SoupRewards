@@ -1,0 +1,15 @@
+# KillSoupRewards 配置
+# 作者: shazi_awa
+
+# 冷却时间 (秒)
+cooldown: 10
+
+# 奖励设置
+reward:
+  type: MUSHROOM_SOUP  # 奖励物品类型 (支持所有 Minecraft 物品)
+  amount: 1            # 奖励数量
+
+# 消息设置
+messages:
+  reward: "&a你获得了击杀奖励: &e%item% x%amount%!"
+  cooldown: "&c请等待 &e%time%秒 &c后再获取奖励"

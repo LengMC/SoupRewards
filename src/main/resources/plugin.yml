@@ -1,0 +1,10 @@
+name: KillSoupRewards
+main: org.leng.KillSoupRewards
+version: 1.0.3
+author: shazi_awa
+description: 击杀玩家后获得蘑菇汤奖励，支持冷却时间和自定义配置。
+api-version: 1.8 
+commands:
+  ksr:
+    description: 显示帮助信息或重载配置
+    usage: /<command> [reload]
